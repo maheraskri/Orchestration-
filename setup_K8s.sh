@@ -1,4 +1,6 @@
 #!/bin/bash 
+# set selinux in permissive mode
+setenforce 0 
 # load kernel modules
 modprobe overlay 
 modprobe br_netfilter
